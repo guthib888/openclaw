@@ -15,4 +15,4 @@ services:
         value: /data/workspace
       - key: OPENCLAW_GATEWAY_TOKEN
         generateValue: true
-  startCommand: openclaw gateway start --port $PORT --host 0.0.0.0
+    startCommand: openclaw gateway start --port $PORT --host 0.0.0.0
